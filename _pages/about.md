@@ -11,7 +11,7 @@ profile:
     <a href="assets/pdf/CV_Zhe Ding.pdf" target="_blank"><i class="icon fas fa-file-pdf" /></a>
     <a href="mailto:zding875@connect.hkust-gz.edu.cn"><i class="icon fas fa-envelope" /></a>
     <a href="https://github.com/abby-ding"><i class="icon fab fa-github"/></a>
-    <a href="https://x.com/zding875"><i class="icon fab fa-twitter"/></a>
+    <a href="https://x.com/zding875"><i class="icon fab fa-x"/></a>
     <a href="https://www.linkedin.com/in/zhe-ding-788365293/"><i class="icon fab fa-linkedin"/></a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

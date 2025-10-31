@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: blog
 nav: true
-nav_order: 1
+nav_order: 2
 pagination:
   enabled: true
   collection: posts
@@ -27,13 +27,11 @@ pagination:
 
   <div class="row">
     <div class="col-sm-6 mb-4">
-      <!-- <img src="/assets/abby-img/1.HEIC" class="img-fluid" alt="image1" style="object-fit: cover;"> -->
-        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/abby-img/1.HEIC" title="example image" class="img-fluid rounded z-depth-1" %}
+      <img src="/assets/abby-img/1.jpg" class="img-fluid" alt="image1" style="object-fit: cover;">
     </div>
     </div>
     <div class="col-sm-6 mb-4">
-      <img src="/assets/abby-img/2.HEIC" class="img-fluid" alt="image2" style="object-fit: cover;">
+      <img src="/assets/abby-img/2.jpg" class="img-fluid" alt="image2" style="object-fit: cover;">
     </div>
   </div>
   

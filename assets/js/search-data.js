@@ -28,8 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-mphil-journey-at-hkust-gz-ai",
-          title: 'Started my Mphil journey at HKUST(GZ) AI!',
+            },},{id: "news-started-my-mphil-journey-at-hkust-gz",
+          title: 'Started my Mphil journey at HKUST(GZ)!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

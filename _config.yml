@@ -355,6 +355,7 @@ imagemagick:
     - 1400
   input_directories:
     - assets/img/
+    - assets/abby-img/
   input_formats:
     - ".jpg"
     - ".jpeg"

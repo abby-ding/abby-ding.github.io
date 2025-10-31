@@ -27,10 +27,10 @@ pagination:
 
   <div class="row">
     <div class="col-sm-6 mb-4">
-      <img src="assets/abby-img/1.HEIC" class="img-fluid" alt="image1" style="object-fit: cover;">
+      <img src="/assets/abby-img/1.HEIC" class="img-fluid" alt="image1" style="object-fit: cover;">
     </div>
     <div class="col-sm-6 mb-4">
-      <img src="assets/abby-img/2.HEIC" class="img-fluid" alt="image2" style="object-fit: cover;">
+      <img src="/assets/abby-img/2.HEIC" class="img-fluid" alt="image2" style="object-fit: cover;">
     </div>
   </div>
   

@@ -9,19 +9,18 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
+Some demos from my undergraduate years
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/OUFniH1KKzM?si=76fMXQXlPxZfpzvQ" class="img-fluid rounded z-depth-1 w-100" %}
+     <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OUFniH1KKzM?si=76fMXQXlPxZfpzvQ" allowfullscreen></iframe>
+    </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/VeTWFfgOo-c?si=4E7uD4eMdsa54P6F" class="img-fluid rounded z-depth-1 w-100" %}
     </div>
 </div>
-<div class="caption">
-    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
-</div>
-
-It does also support embedding videos from different sources. Here are some examples:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

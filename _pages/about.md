@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: left
-  image: zhe-ding
+  image: zhe-ding.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <a href="assets/pdf/CV_Zhe Ding.pdf" target="_blank"><i class="icon fas fa-file-pdf" /></a>
+    <a href="mailto:zding875@connect.hkust-gz.edu.cn"><i class="icon fas fa-envelope" /></a>
+    <a href="https://github.com/abby-ding"><i class="icon fab fa-github"/></a>
+    <a href="https://x.com/zding875"><i class="icon fab fa-twitter"/></a>
+    <a href="https://www.linkedin.com/in/zhe-ding-788365293/"><i class="icon fab fa-linkedin"/></a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -26,7 +27,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
 **Artificial Intelligence M.Phil. Student at HKUST(GZ)**
 
 Hi, I’m zhe! I’m a second-year M.Phil. student in Artificial Intelligence at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Zeyu Wang](https://eunicemjun.com/) in the [CIS Lab](https://ucla-cdl.org/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).

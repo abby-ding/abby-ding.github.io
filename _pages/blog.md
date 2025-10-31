@@ -18,16 +18,19 @@ pagination:
 
 <div class="post">
 
-  <div class="header-bar">
+  <!-- <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
-  </div>
+  </div> -->
 
   <p>Welcome to my blog! Here I share my thoughts and experiences in the field of Artificial Intelligence, Human-Computer Interaction, and immersive technologies like AR/VR. Stay tuned for more updates!</p>
 
   <div class="row">
     <div class="col-sm-6 mb-4">
-      <img src="/assets/abby-img/1.HEIC" class="img-fluid" alt="image1" style="object-fit: cover;">
+      <!-- <img src="/assets/abby-img/1.HEIC" class="img-fluid" alt="image1" style="object-fit: cover;"> -->
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/abby-img/1.HEIC" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
     </div>
     <div class="col-sm-6 mb-4">
       <img src="/assets/abby-img/2.HEIC" class="img-fluid" alt="image2" style="object-fit: cover;">
@@ -36,10 +39,10 @@ pagination:
   
   <div class="row">
     <div class="col-sm-4 mb-4">
-      <img src="assets/abby-img/3.JPG" class="img-fluid" alt="image3" style="object-fit: cover;">
+      <img src="/assets/abby-img/3.JPG" class="img-fluid" alt="image3" style="object-fit: cover;">
     </div>
     <div class="col-sm-8 mb-4">
-      <img src="assets/abby-img/4.JPG" class="img-fluid" alt="image4" style="object-fit: cover;">
+      <img src="/assets/abby-img/4.JPG" class="img-fluid" alt="image4" style="object-fit: cover;">
     </div>
   </div>
 

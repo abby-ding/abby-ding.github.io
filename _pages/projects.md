@@ -22,21 +22,19 @@ Some demos from my undergraduate years
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tCtdqpRpTc0?si=PLRccq-zO127rEyZ" allowfullscreen></iframe>
       </div>
     </div>
-</div>
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
       <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s6gAWITTpeM?si=p6O3pQKdKNtSQqfO" allowfullscreen></iframe>
       </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+</div>
+
+<div class="row mt-3">
+<div class="col-sm mt-3 mt-md-0">
       <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/G6-iDmNTQ6Y?si=nqT7RCpNqHa3axEn" allowfullscreen></iframe>
       </div>
     </div>
-</div>
-
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
       <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OUFniH1KKzM?si=76fMXQXlPxZfpzvQ" allowfullscreen></iframe>

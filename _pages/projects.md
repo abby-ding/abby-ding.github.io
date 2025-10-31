@@ -9,31 +9,25 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-<!-- Add YouTube videos here -->
-<div class="youtube-videos">
-  <div class="youtube-video">
-    <iframe width="560" height="315" src="https://youtu.be/OUFniH1KKzM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  
-  <!-- <div class="youtube-video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div> -->
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://youtu.be/OUFniH1KKzM" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
 </div>
+<div class="caption">
+    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
 </div>
 
-<!-- CSS Styles to display videos side by side -->
-<style>
-  .youtube-videos {
-    display: flex;
-    justify-content: space-between; /* Ensure space between videos */
-    gap: 20px; /* Add gap between videos */
-    margin-top: 30px; /* Optional: Add space above the videos */
-  }
+It does also support embedding videos from different sources. Here are some examples:
 
-  .youtube-video iframe {
-    width: 48%; /* Each video takes 48% of the container width */
-    height: 315px; /* Fixed height for consistency */
-  }
-</style>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&title=0&byline=0&portrait=0" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

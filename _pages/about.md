@@ -32,3 +32,5 @@ latest_posts:
 Hi, I’m zhe! I’m a second-year M.Phil. student in Artificial Intelligence at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Zeyu Wang](https://eunicemjun.com/) in the [CIS Lab](https://ucla-cdl.org/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).
 
 My research lies at the intersection of **human–computer interaction**, **computer graphics**, and **artificial intelligence**, with a focus on developing intelligent interaction techniques for immersive VR/AR environments. I am particularly interested in how recent advances in 3D reconstruction, 3D generation, and large language models (LLMs) can enable more natural, adaptive, and expressive human interaction.
+
+> **⭐️ I’m actively seeking Phd opportunities for Fall 2026!**

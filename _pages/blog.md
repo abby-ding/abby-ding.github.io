@@ -26,7 +26,7 @@ pagination:
   <p>Welcome to my blog! </p>
 
   <!-- 图片区域，一行三列 -->
-  <div class="row">
+  <div class="row" data-masonry='{"percentPosition": true }'>
     <div class="col-6 col-md-4 mb-3">
       <img src="/assets/abby-img/1.jpg" class="img-fluid w-100" alt="image1" style="object-fit: cover;">
     </div>

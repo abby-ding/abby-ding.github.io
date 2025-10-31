@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my Mphil journey at HKUST(GZ) AI!
+Started my Mphil journey at HKUST(GZ)!

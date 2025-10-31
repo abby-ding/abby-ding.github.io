@@ -23,7 +23,7 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div> -->
 
-  <p>Welcome to my blog! </p>
+  <p>Welcome to my blog! :) </p>
 
   <!-- 图片区域，一行三列 -->
   <div class="row" data-masonry='{"percentPosition": true }'>

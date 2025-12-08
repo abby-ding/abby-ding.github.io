@@ -8,7 +8,7 @@ profile:
   image: zhe-ding.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href="assets/pdf/CV_Zhe Ding.pdf" target="_blank"><i class="icon fas fa-file-pdf fa-2x" /></a>
+    <a href="assets/pdf/CV_Zhe_Ding.pdf" target="_blank"><i class="icon fas fa-file-pdf fa-2x" /></a>
     <a href="mailto:zding875@connect.hkust-gz.edu.cn"><i class="icon fas fa-envelope fa-2x" /></a>
     <a href="https://github.com/abby-ding"><i class="icon fab fa-github fa-2x"/></a>
     <a href="https://x.com/zding875"><i class="icon fab fa-x-twitter fa-2x"/></a>

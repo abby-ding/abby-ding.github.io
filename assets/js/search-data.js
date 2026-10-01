@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "Explore some of my exciting projects that showcase my skills and passion for innovation across various fields.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-blog",
+  },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -28,8 +21,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-mphil-journey-at-hkust-gz-started-my-phd-journey-at-tamu",
-          title: 'Started my Mphil journey at HKUST(GZ)!  Started my Phd journey at TAMU!',
+            },},{id: "news-started-my-mphil-journey-at-hkust-gz",
+          title: 'Started my Mphil journey at HKUST(GZ)!',
+          description: "",
+          section: "News",},{id: "news-started-my-phd-journey-at-tamu",
+          title: 'Started my PhD journey at TAMU!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

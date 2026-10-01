@@ -251,6 +251,116 @@ html[data-theme="dark"] .about-keywords span {
   background: rgba(38, 152, 186, 0.1);
 }
 
+.education-panel {
+  clear: both;
+  margin: 0.25rem 0 1.75rem;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+
+  summary {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem 2rem 0.9rem 0;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      position: absolute;
+      right: 0;
+      color: var(--global-theme-color);
+      content: "+";
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+
+    span {
+      font-weight: 650;
+
+      i {
+        margin-right: 0.45rem;
+        color: var(--global-theme-color);
+      }
+    }
+
+    small {
+      color: var(--global-text-color-light);
+      font-size: 0.75rem;
+    }
+  }
+
+  &[open] summary::after {
+    content: "−";
+  }
+}
+
+.education-list {
+  padding: 0.25rem 0 0.4rem 0.25rem;
+}
+
+.education-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 14px minmax(0, 1fr);
+  gap: 0.7rem;
+  padding-bottom: 1rem;
+
+  &::before {
+    position: absolute;
+    top: 12px;
+    bottom: -1px;
+    left: 4px;
+    width: 1px;
+    background: var(--global-divider-color);
+    content: "";
+  }
+
+  &:last-child::before {
+    display: none;
+  }
+
+  strong,
+  p,
+  small {
+    display: block;
+  }
+
+  p {
+    margin: 0.12rem 0 0;
+    color: var(--global-text-color-light);
+    font-size: 0.84rem;
+  }
+
+  small {
+    margin-top: 0.12rem;
+    color: var(--global-text-color-light);
+    font-size: 0.76rem;
+  }
+}
+
+.education-marker {
+  z-index: 1;
+  width: 9px;
+  height: 9px;
+  margin-top: 0.35rem;
+  border: 2px solid var(--global-bg-color);
+  border-radius: 50%;
+  background: var(--global-theme-color);
+  box-shadow: 0 0 0 1px var(--global-theme-color);
+}
+
+@media (max-width: 575px) {
+  .education-panel summary small {
+    display: none;
+  }
+}
+
 .profile {
   width: 100%;
 

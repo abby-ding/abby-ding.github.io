@@ -30,7 +30,7 @@ latest_posts:
 
 **Ph.D. student @ CSE, Texas A&M University**
 
-Howdy, I’m Zhe! I’m a first-year Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Meng Xia](https://www.xiameng.org/). Previously, I earned my M.Phil. 🎓 in Artificial Intelligence from [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), where I was advised by [Prof. Zeyu Wang](https://cislab.hkust-gz.edu.cn/members/zeyu-wang/) in the [CIS Lab](https://cislab.hkust-gz.edu.cn/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree 🎓 from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).
+Howdy, I’m Zhe! I’m a first-year Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Meng Xia](https://www.xiameng.org/).
 
 My research lies at the intersection of human–computer interaction, artificial intelligence, and education. I am broadly interested in designing intelligent and adaptive interactive systems that better understand and support human needs. My current work focuses on AI for education, particularly on how generative AI and AI agents can understand students’ learning processes, recognize when learners struggle, and provide personalized and scalable support in classroom settings.
 
@@ -41,3 +41,35 @@ My research lies at the intersection of human–computer interaction, artificial
   <span>AI Agents</span>
   <span>VR/AR</span>
 </div>
+
+<details class="education-panel">
+  <summary>
+    <span><i class="fas fa-graduation-cap"></i> Education</span>
+    <small>View academic background</small>
+  </summary>
+  <div class="education-list">
+    <div class="education-item">
+      <span class="education-marker"></span>
+      <div>
+        <strong>Texas A&amp;M University</strong>
+        <p>Ph.D. in Computer Science · 2026–present</p>
+        <small>Advisor: <a href="https://www.xiameng.org/">Prof. Meng Xia</a></small>
+      </div>
+    </div>
+    <div class="education-item">
+      <span class="education-marker"></span>
+      <div>
+        <strong>HKUST (Guangzhou)</strong>
+        <p>M.Phil. in Artificial Intelligence · <a href="https://cislab.hkust-gz.edu.cn/">CIS Lab</a></p>
+        <small>Advisors: <a href="https://cislab.hkust-gz.edu.cn/members/zeyu-wang/">Prof. Zeyu Wang</a> and <a href="https://panhui.people.ust.hk/">Prof. Pan Hui</a></small>
+      </div>
+    </div>
+    <div class="education-item">
+      <span class="education-marker"></span>
+      <div>
+        <strong>Southern University of Science and Technology</strong>
+        <p>Bachelor’s degree</p>
+      </div>
+    </div>
+  </div>
+</details>

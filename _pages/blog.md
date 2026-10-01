@@ -26,21 +26,21 @@ pagination:
   <p>Welcome to my blog! :) </p>
 
   <!-- 图片区域，一行三列 -->
-  <div class="row" data-masonry='{"percentPosition": true }'>
+  <div class="row blog-gallery">
     <div class="col-6 col-md-4 mb-3">
-      <img src="/assets/abby-img/1.jpg" class="img-fluid w-100" alt="image1" style="object-fit: cover;">
+      <img src="/assets/abby-img/1.jpg" class="img-fluid w-100" alt="image1" width="4032" height="3024" style="object-fit: cover;">
     </div>
     <div class="col-6 col-md-4 mb-3">
-      <img src="/assets/abby-img/2.jpg" class="img-fluid w-100" alt="image2" style="object-fit: cover;">
+      <img src="/assets/abby-img/2.jpg" class="img-fluid w-100" alt="image2" width="4032" height="3024" style="object-fit: cover;">
     </div>
     <div class="col-6 col-md-4 mb-3">
-      <img src="/assets/abby-img/3.JPG" class="img-fluid w-100" alt="image3" style="object-fit: cover;">
+      <img src="/assets/abby-img/3.JPG" class="img-fluid w-100" alt="image3" width="1536" height="2048" style="object-fit: cover;">
     </div>
     <div class="col-6 col-md-4 mb-3">
-      <img src="/assets/abby-img/4.JPG" class="img-fluid w-100" alt="image4" style="object-fit: cover;">
+      <img src="/assets/abby-img/4.JPG" class="img-fluid w-100" alt="image4" width="2048" height="1536" style="object-fit: cover;">
     </div>
     <div class="col-6 col-md-4 mb-3">
-      <img src="/assets/abby-img/5.JPG" class="img-fluid w-100" alt="image5" style="object-fit: cover;">
+      <img src="/assets/abby-img/5.JPG" class="img-fluid w-100" alt="image5" width="4096" height="3072" style="object-fit: cover;">
     </div>
   </div>
 

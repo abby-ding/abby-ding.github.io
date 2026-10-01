@@ -6,5 +6,3 @@ related_posts: false
 ---
 
 Started my Mphil journey at HKUST(GZ)!
-
-Started my Phd journey at TAMU!

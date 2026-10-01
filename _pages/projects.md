@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Explore some of my exciting projects that showcase my skills and passion for innovation across various fields.
-nav: true
+nav: false
 nav_order: 1
 display_categories: [work, fun]
 horizontal: false

@@ -1,49 +1,51 @@
 ---
 layout: default
 ---
-<div class="post about-page">
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
   <article>
     {% if page.profile %}
-      <section class="about-hero">
-        <div class="about-portrait">
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) 300px, (min-width: 768px) 32vw, 82vw{% endcapture %}
-            <div class="about-photo-frame">
-              {%
-                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt="Portrait of Zhe Ding"
-                cache_bust=true
-              %}
-            </div>
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
           {% endif %}
-          {% if page.profile.more_info %}
-            <div class="more-info">{{ page.profile.more_info }}</div>
-          {% endif %}
-          <p class="about-photo-note"><span></span> HCI × AI × Education</p>
-        </div>
-        <div class="about-hero-copy">{{ content }}</div>
-      </section>
-    {% else %}
-      <div class="clearfix">{{ content }}</div>
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
     {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <section class="about-news">
-        <div class="about-section-heading">
-          <div>
-            <span>Updates</span>
-            <h2>What’s new</h2>
-          </div>
-          <a href="{{ '/news/' | relative_url }}">View all <i class="fas fa-arrow-right"></i></a>
-        </div>
-        {% include news.liquid limit=true %}
-      </section>
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->

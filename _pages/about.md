@@ -28,8 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Artificial Intelligence M.Phil. Student at HKUST(GZ)**
+**Computer Science Ph.D. Student at Texas A&M University**
 
-Hi, I’m Zhe! I’m a second-year M.Phil. student in Artificial Intelligence at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Zeyu Wang](https://eunicemjun.com/) in the [CIS Lab](https://ucla-cdl.org/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).
+Howdy, I’m Zhe! I’m a first-year Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Meng Xia](https://www.xiameng.org/). Previously, I earned my M.Phil. in Artificial Intelligence from The Hong Kong University of Science and Technology (Guangzhou), where I was advised by [Prof. Zeyu Wang](https://cislab.hkust-gz.edu.cn/members/zeyu-wang/) in the [CIS Lab](https://cislab.hkust-gz.edu.cn/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).
 
-My research lies at the intersection of **human–computer interaction**, **computer graphics**, and **artificial intelligence**, with a focus on developing intelligent interaction techniques for immersive VR/AR environments. I am particularly interested in how recent advances in 3D reconstruction, 3D generation, and large language models (LLMs) can enable more natural, adaptive, and expressive human interaction.
+My research lies at the intersection of human–computer interaction, artificial intelligence, and education. I am broadly interested in designing intelligent and adaptive interactive systems that better understand and support human needs. My current work focuses on AI for education, particularly on how generative AI and AI agents can understand students’ learning processes, recognize when learners struggle, and provide personalized and scalable support in classroom settings. Previously, my research also explored computer graphics and immersive VR/AR interaction, including 3D reconstruction, 3D generation, and intelligent interaction techniques for virtual environments.

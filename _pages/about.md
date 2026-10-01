@@ -28,8 +28,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Computer Science Ph.D. Student at Texas A&M University**
+**Ph.D. student @ CSE, Texas A&M University**
 
-Howdy, I’m Zhe! I’m a first-year Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Meng Xia](https://www.xiameng.org/). Previously, I earned my M.Phil. in Artificial Intelligence from The Hong Kong University of Science and Technology (Guangzhou), where I was advised by [Prof. Zeyu Wang](https://cislab.hkust-gz.edu.cn/members/zeyu-wang/) in the [CIS Lab](https://cislab.hkust-gz.edu.cn/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).
+Howdy, I’m Zhe! I’m a first-year Ph.D. student in Computer Science at Texas A&M University, advised by [Prof. Meng Xia](https://www.xiameng.org/). Previously, I earned my M.Phil. 🎓 in Artificial Intelligence from [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), where I was advised by [Prof. Zeyu Wang](https://cislab.hkust-gz.edu.cn/members/zeyu-wang/) in the [CIS Lab](https://cislab.hkust-gz.edu.cn/) and [Prof. Pan Hui](https://panhui.people.ust.hk/). Previously, I earned my bachelor degree 🎓 from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/).
 
-My research lies at the intersection of human–computer interaction, artificial intelligence, and education. I am broadly interested in designing intelligent and adaptive interactive systems that better understand and support human needs. My current work focuses on AI for education, particularly on how generative AI and AI agents can understand students’ learning processes, recognize when learners struggle, and provide personalized and scalable support in classroom settings. Previously, my research also explored computer graphics and immersive VR/AR interaction, including 3D reconstruction, 3D generation, and intelligent interaction techniques for virtual environments.
+My research lies at the intersection of human–computer interaction, artificial intelligence, and education. I am broadly interested in designing intelligent and adaptive interactive systems that better understand and support human needs. My current work focuses on AI for education, particularly on how generative AI and AI agents can understand students’ learning processes, recognize when learners struggle, and provide personalized and scalable support in classroom settings.
+
+<div class="about-keywords" aria-label="Research interests">
+  <span>HCI</span>
+  <span>AI for Education</span>
+  <span>Generative AI</span>
+  <span>AI Agents</span>
+  <span>VR/AR</span>
+</div>

@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
+  <header class="post-header about-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -11,6 +11,9 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
+    {% if page.profile.more_info %}
+      <div class="about-header-icons">{{ page.profile.more_info }}</div>
+    {% endif %}
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -31,9 +34,6 @@ layout: default
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
       </div>
     {% endif %}

@@ -192,27 +192,6 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
-.about-intro {
-  display: grid;
-  grid-template-columns: minmax(220px, 30%) minmax(0, 1fr);
-  gap: clamp(1.25rem, 3vw, 2.25rem);
-  align-items: center;
-  margin-bottom: 1.5rem;
-
-  &.about-intro-no-profile {
-    grid-template-columns: 1fr;
-  }
-
-  .profile {
-    width: 100%;
-    margin: 0;
-
-    figure {
-      margin: 0;
-    }
-  }
-}
-
 .about-header {
   display: flex;
   flex-wrap: wrap;
@@ -437,16 +416,6 @@ html[data-theme="dark"] .education-popover summary {
 }
 
 @media (max-width: 575px) {
-  .about-intro {
-    grid-template-columns: 1fr;
-    align-items: start;
-
-    .profile {
-      width: min(100%, 360px);
-      margin: 0 auto;
-    }
-  }
-
   .about-header {
     gap: 0.6rem;
 

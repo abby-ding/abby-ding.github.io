@@ -23,25 +23,28 @@ layout: default
       </div>
     {% endif %}
 
-    <header class="post-header about-header">
-      <h1 class="post-title">
-        {% if site.title == 'blank' %}
-          <span class="font-weight-bold">
-            {{- site.first_name }}
-            {{ site.middle_name }}
-            {{ site.last_name -}}
-          </span>
-        {% else %}
-          <span class="font-weight-bold">{{ site.title }}</span>
+    <div class="about-copy">
+      <header class="post-header about-header">
+        <h1 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">
+              {{- site.first_name }}
+              {{ site.middle_name }}
+              {{ site.last_name -}}
+            </span>
+          {% else %}
+            <span class="font-weight-bold">{{ site.title }}</span>
+          {% endif %}
+        </h1>
+        {% if page.profile.more_info %}
+          <div class="about-header-icons">{{ page.profile.more_info }}</div>
         {% endif %}
-      </h1>
-      {% if page.profile.more_info %}
-        <div class="about-header-icons">{{ page.profile.more_info }}</div>
-      {% endif %}
-      <p class="desc">{{ page.subtitle }}</p>
-    </header>
+        <p class="desc">{{ page.subtitle }}</p>
+      </header>
 
-    <div class="clearfix">{{ content }}</div>
+      <div>{{ content }}</div>
+    </div>
+    <div class="clearfix"></div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

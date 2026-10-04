@@ -192,6 +192,10 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.about-copy {
+  display: flow-root;
+}
+
 .about-header {
   display: flex;
   flex-wrap: wrap;
@@ -416,6 +420,10 @@ html[data-theme="dark"] .education-popover summary {
 }
 
 @media (max-width: 575px) {
+  .about-copy {
+    clear: both;
+  }
+
   .about-header {
     gap: 0.6rem;
 

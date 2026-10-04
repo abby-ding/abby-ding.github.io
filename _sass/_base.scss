@@ -192,6 +192,27 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
+.about-intro {
+  display: grid;
+  grid-template-columns: minmax(220px, 30%) minmax(0, 1fr);
+  gap: clamp(1.25rem, 3vw, 2.25rem);
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  &.about-intro-no-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .profile {
+    width: 100%;
+    margin: 0;
+
+    figure {
+      margin: 0;
+    }
+  }
+}
+
 .about-header {
   display: flex;
   flex-wrap: wrap;
@@ -202,6 +223,7 @@ ul.task-list input[type="checkbox"] {
 
   .post-title {
     margin-bottom: 0;
+    font-weight: 700;
   }
 
   .about-header-icons {
@@ -219,7 +241,7 @@ ul.task-list input[type="checkbox"] {
         transform 160ms ease;
 
       i {
-        font-size: 1.2rem;
+        font-size: 1.35rem;
       }
 
       &:hover {
@@ -327,9 +349,35 @@ html[data-theme="dark"] .education-popover summary {
   background: var(--global-card-bg-color);
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.14);
 
-  h2 {
-    margin: 0 0 0.9rem;
-    font-size: 1rem;
+  .education-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+
+    h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    button {
+      display: inline-flex;
+      width: 1.7rem;
+      height: 1.7rem;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background: transparent;
+      color: var(--global-text-color-light);
+      cursor: pointer;
+
+      &:hover {
+        background: var(--global-divider-color);
+        color: var(--global-theme-color);
+      }
+    }
   }
 }
 
@@ -389,6 +437,16 @@ html[data-theme="dark"] .education-popover summary {
 }
 
 @media (max-width: 575px) {
+  .about-intro {
+    grid-template-columns: 1fr;
+    align-items: start;
+
+    .profile {
+      width: min(100%, 360px);
+      margin: 0 auto;
+    }
+  }
+
   .about-header {
     gap: 0.6rem;
 
@@ -396,7 +454,7 @@ html[data-theme="dark"] .education-popover summary {
       gap: 0.55rem;
 
       a i {
-        font-size: 1.05rem;
+        font-size: 1.15rem;
       }
     }
   }

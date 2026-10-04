@@ -33,7 +33,10 @@ latest_posts:
   <details class="education-popover">
     <summary title="Education" aria-label="Show education"><i class="fas fa-graduation-cap"></i></summary>
     <div class="education-card">
-      <h2>Education</h2>
+      <div class="education-card-header">
+        <h2>Education</h2>
+        <button type="button" data-education-close aria-label="Close education"><i class="fas fa-xmark"></i></button>
+      </div>
       <div class="education-list">
         <div class="education-item">
           <span class="education-marker"></span>

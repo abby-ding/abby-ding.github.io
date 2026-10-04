@@ -56,4 +56,27 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  // Close the education popover with its close button, a click outside, or Escape.
+  document.addEventListener("click", function (event) {
+    const closeButton = event.target.closest("[data-education-close]");
+
+    if (closeButton) {
+      const educationPopover = closeButton.closest(".education-popover");
+      if (educationPopover) educationPopover.removeAttribute("open");
+      return;
+    }
+
+    document.querySelectorAll(".education-popover[open]").forEach(function (educationPopover) {
+      if (!educationPopover.contains(event.target)) educationPopover.removeAttribute("open");
+    });
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      document.querySelectorAll(".education-popover[open]").forEach(function (educationPopover) {
+        educationPopover.removeAttribute("open");
+      });
+    }
+  });
 });

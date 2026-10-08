@@ -196,6 +196,32 @@ ul.task-list input[type="checkbox"] {
   display: flow-root;
 }
 
+.about-contact-icons {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+
+  a {
+    color: var(--global-theme-color);
+    line-height: 1;
+    text-decoration: none;
+    transition:
+      opacity 160ms ease,
+      transform 160ms ease;
+
+    i {
+      font-size: 1.35rem;
+    }
+
+    &:hover {
+      transform: translateY(-1px);
+      opacity: 0.7;
+    }
+  }
+}
+
 .about-header {
   display: flex;
   flex-wrap: wrap;
@@ -207,31 +233,6 @@ ul.task-list input[type="checkbox"] {
   .post-title {
     margin-bottom: 0;
     font-weight: 700;
-  }
-
-  .about-header-icons {
-    display: flex;
-    gap: 0.65rem;
-    align-items: center;
-    margin-left: auto;
-
-    a {
-      color: var(--global-theme-color);
-      line-height: 1;
-      text-decoration: none;
-      transition:
-        opacity 160ms ease,
-        transform 160ms ease;
-
-      i {
-        font-size: 1.35rem;
-      }
-
-      &:hover {
-        transform: translateY(-1px);
-        opacity: 0.7;
-      }
-    }
   }
 
   .desc {
@@ -426,13 +427,13 @@ html[data-theme="dark"] .education-popover summary {
 
   .about-header {
     gap: 0.6rem;
+  }
 
-    .about-header-icons {
-      gap: 0.55rem;
+  .about-contact-icons {
+    gap: 0.55rem;
 
-      a i {
-        font-size: 1.15rem;
-      }
+    a i {
+      font-size: 1.15rem;
     }
   }
 
